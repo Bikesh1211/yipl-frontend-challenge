@@ -4,9 +4,17 @@
 
 body{
     font-family: Overpass;
+    font-weight: bold;
+    overflow-x: hidden;
 }
 .navbar{
     height: 90px;
+}
+.nav-link{
+    margin-left: 20px;
+}
+.navbar-nav a{
+    color: black;
 }
 .navbar-brand{
     font-family: Pacifico;
@@ -24,22 +32,93 @@ body{
 }
 
 .feature-post{
+    font-weight: normal;
     position: absolute;
     width: 450px;
     height: 400px;
-    right: 100px;
+    right: 50px;
     color: white;
     top: 0;
     background-color: #1791A0;
     padding: 30px;
+}
+
+.social-icon{
+    position: absolute;
+    right: 50px;    
+    top: 450px;
+    color: wheat;
+}
+.social-icon h2{
+    font-size: 24px;
+
+}
+.social-icon .fa-brands{
+    margin-left: 20px;
 }
 .feature-post hr{
     height: 2px;
     color: white;
     opacity: 100%;
 }
+.feature-post h3,h2{
+    font-weight: bold;
+}
 
 #arrow-btn{
     padding-left: 120px;
     font-size: 25px;
+}
+
+.meet-the-dog{
+    margin-bottom: 100px;
+}
+.meet-the-dog p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.meet-the-dog h1{
+    font-weight: bold;
+}
+.meet-the-dog img{
+    /* width: 99%; */
+    object-fit: cover;
+}
+.animal img{
+    object-fit: contain;
+}
+.animal-img img{
+    height: 200px;
+}
+
+.animal-img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 100px;
+    width: 300px;
+    margin: 20px;
+}
+.animal-img img{
+    object-fit: cover;
+}
+.animal{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.recent-project{
+    background-color: rgb(247, 245, 245);
+    padding-top: 100px;
+}
+.recent-project img{
+    width: 99%;
+    margin-bottom: 30px;
+}
+
+
+
+footer{
+    background-color: orange;
+    height: 300px;
 }
