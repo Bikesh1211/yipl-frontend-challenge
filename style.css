@@ -153,19 +153,153 @@ body{
     font-size: 12px;
 }
 
+.upcoming-events .card{
+    margin-top:30px;
+}
+.past-events h1{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
 
+.past-events{
+
+    display: flex;
+    
+}
+.past-events .card{
+    margin-right: 0px;
+    margin-top: 30px;
+    box-shadow: none;
+}
+.past-events .col img{
+    padding: 20px;
+}
+
+
+.past-events{
+    display: grid;
+    grid-template-columns: auto;
+}
 footer{
     background-color: orange;
     height: 300px;
 }
 
+.testimonials{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: gray;
+     color: white;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.testimonials-container img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.client-name{
+    display: flex;
+}
+.client{
+    margin-left: 20px;
+    font-size: 14px;
+}
+.client-name h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1791A0;
+}
+
+.trusted-partner{
+    background-color: rgb(235, 233, 233);
+}
+
+
+.partners{
+    background-color: rgb(255, 255, 255) ;
+        color: black;
+        /* margin: 10px; */
+        text-align: center;
+        font-size: 50px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.partners h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.our-teams a{
+    margin: 10px;
+}
+
+footer{
+    background-color: #3C3D41;
+    color: white;
+}
+footer input{
+    border-radius: 20px 0px  0px 20px;
+    border: none;
+    height: 40px;
+    padding-left: 20px;
+    outline: none;
+    width: 85%;
+}
+footer .row{
+    padding-top: 50px;
+    font-weight: normal;
+}
+footer h1{
+    font-weight: bold;
+}
+.search-contaienr{
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+.logo-footer h1{
+    font-family: Pacifico;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+footer button{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: #1791A0;
+    color: white;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.bottom-footer{
+    background-color: #171717;
+    padding: 0;
+    color: white;
+    padding-top: 30px;
+
+}
+.bottom-footer p{
+    font-size: 14px;
+}
+.logo-footer h1{
+    font-size: 30px;
+}
+.footer-social-icon h2{
+    font-size: 20px;
+    text-align: end;
+}
+.footer-social-icon .fa-brands{
+    margin-left: 20px;
+}
 @media (max-width:700px) {
     .navbar-brand{
         margin: 0;
     }
-    .feature-post{
-        /* width: 50%; */
-    }
+
     .feature-post h1{
         font-size: auto;
     }
