@@ -152,14 +152,57 @@ body{
     color: black;
     font-size: 12px;
 }
-
-.upcoming-events .card{
-    margin-top:30px;
-}
-.past-events h1{
-    margin-top: 50px;
+.upcoming-events h1{
     font-weight: bold;
+}
+
+.upcoming-events{
+    margin-top: 50px;
+}
+.upcoming-events .card{
+    margin-top:50px;
+}
+.past-events{
+    padding-top: 100px;
+}
+
+.past-events h1{
+    font-weight: bold;
+    /* font-size: 30px; */
+    font-weight: bold;
+}
+.recent-news-container{
+    position: relative;
+}
+.recent-news-overlay{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.466);
+    bottom: 20px;
+    /* right: 15px; */
+    right: 0;
+    height: 400px;
+    width: 70%;
+}
+.recent-news-overlay h1{
+    opacity: 1;
+    margin: 50px;
     font-size: 30px;
+    margin-top: 100px;
+
+}
+.recent-news-date{
+    background-color: #1791A0;
+    opacity: 100%;
+    width: 130px;
+    font-size: 10px;
+    top: 0;
+    position: absolute;
+    height: 50px;
+}
+.recent-news-date h1{
+    margin: 20px;
+    font-size: 14PX;
+    color: white;
 }
 
 .past-events{
@@ -175,6 +218,23 @@ body{
 .past-events .col img{
     padding: 20px;
 }
+.partners{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.resources img{
+    width: 150px;
+    box-shadow: -10px 10px #1791A0;
+}
+.resources h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.testimonials-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 
 
 .past-events{
@@ -215,13 +275,23 @@ footer{
 
 .trusted-partner{
     background-color: rgb(235, 233, 233);
+    padding-top: 50px;
 }
 
+#resources-links{
+display: flex;
+
+}
+#resources-links li{
+    list-style: none;
+    font-size: 16px;
+    margin: 10px;
+}
 
 .partners{
     background-color: rgb(255, 255, 255) ;
         color: black;
-        /* margin: 10px; */
+        margin-top: 50px;
         text-align: center;
         font-size: 50px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -232,6 +302,31 @@ footer{
 }
 .our-teams a{
     margin: 10px;
+}
+
+.overlay-text{
+    position: absolute;
+    width: 438px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+
+    margin: 40px;
+    margin-top: 100px;
+    color: #FFFFFF;
+    display: block;
+}
+.recent-project h1{
+    font-weight: bold;
+}
+.overlay-text p{
+    line-height: 20px;
+}
+.overlay-text h1{
+    font-size: 30px;
 }
 
 footer{
