@@ -9,6 +9,8 @@ body{
 }
 .navbar{
     height: 90px;
+    z-index: 1;
+
 }
 .navbar-nav .active a{
     color: white;
@@ -243,7 +245,6 @@ body{
 }
 footer{
     background-color: orange;
-    height: 300px;
 }
 
 .testimonials{
@@ -356,7 +357,6 @@ footer h1{
 
 .logo-footer h1{
     font-family: Pacifico;
-    margin-bottom: 30px;
     font-weight: normal;
 }
 footer button{
@@ -372,9 +372,7 @@ footer button{
 
 .bottom-footer{
     background-color: #171717;
-    padding: 0;
     color: white;
-    padding-top: 30px;
 
 }
 .bottom-footer p{
@@ -386,6 +384,8 @@ footer button{
 .footer-social-icon h2{
     font-size: 20px;
     text-align: end;
+    margin: 0;
+    padding: 0;
 }
 .footer-social-icon .fa-brands{
     margin-left: 20px;
@@ -396,6 +396,7 @@ footer button{
     }
 
     .feature-post h1{
-        font-size: auto;
+        font-size: 1vw;
     }
+
 }
