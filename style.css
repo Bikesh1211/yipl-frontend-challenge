@@ -10,6 +10,9 @@ body{
 .navbar{
     height: 90px;
 }
+.navbar-nav .active a{
+    color: white;
+}
 .nav-link{
     margin-left: 20px;
 }
@@ -37,6 +40,7 @@ body{
     width: 450px;
     height: 400px;
     right: 50px;
+
     color: white;
     top: 0;
     background-color: #1791A0;
@@ -73,6 +77,9 @@ body{
 .meet-the-dog{
     margin-bottom: 100px;
 }
+.meet-the-dog img{
+    width: 99%;
+}
 .meet-the-dog p{
     font-size: 20px;
     font-weight: bold;
@@ -104,6 +111,7 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
+
 }
 
 
@@ -116,9 +124,49 @@ body{
     margin-bottom: 30px;
 }
 
+.card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.card h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card a{
+    text-decoration: none;
+    font-size: 14px;
+}
+#events-date{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    line-height: 15px;
+    padding-bottom: 2px;
+    margin: 15px;
+    color: #1791A0;
+}
+#event-full-date{
+    font-size: 12px;
+}
+#events-date span{
+    color: black;
+    font-size: 12px;
+}
 
 
 footer{
     background-color: orange;
     height: 300px;
+}
+
+@media (max-width:700px) {
+    .navbar-brand{
+        margin: 0;
+    }
+    .feature-post{
+        /* width: 50%; */
+    }
+    .feature-post h1{
+        font-size: auto;
+    }
 }
